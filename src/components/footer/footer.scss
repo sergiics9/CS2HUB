@@ -1,0 +1,39 @@
+footer {
+  font-family: 'Karla';
+  font-size: 0.9rem;
+  background-color: #3a3f44;
+  color: white;
+  padding: 0.2rem;
+  margin-block: 1rem;
+  margin: 0;
+}
+
+.text-and-social-media-imgs-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: float 6s ease-in-out infinite;
+}
+
+.footer--first-content {
+  display: flex;
+  justify-content: center;
+}
+
+.social-media-imgs-container {
+  display: flex;
+  gap: 2.3rem;
+  margin-inline: 1rem;
+}
+
+@keyframes float {
+  0% {
+    transform: translatey(0px);
+  }
+  50% {
+    transform: translatey(-20px);
+  }
+  100% {
+    transform: translatey(0px);
+  }
+}

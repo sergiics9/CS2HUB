@@ -1,0 +1,163 @@
+$font: 'Karla';
+
+.card {
+  background-color: #1c1e22;
+  list-style: none;
+  text-align: center;
+  border: 1px solid #0c0d0e;
+  box-shadow: rgba(240, 46, 170, 0.4) -5px 5px,
+    rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px;
+  border-radius: 4px;
+  margin: 1rem;
+
+  p {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: white;
+    font-family: $font;
+  }
+
+  .skin-image:hover {
+    transform: scale(1.05);
+  }
+
+  .covert {
+    font-family: $font;
+    margin-inline: 1rem;
+    color: #000;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: #eb4b4bed;
+  }
+
+  .milspec {
+    font-family: $font;
+    margin-inline: 1rem;
+    color: #000;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: #4b69ff;
+  }
+
+  .restricted {
+    font-family: $font;
+    margin-inline: 1rem;
+    color: #000;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: #8847ff;
+  }
+
+  .extraordinary {
+    font-family: $font;
+    margin-inline: 1rem;
+    color: #000;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: gold;
+  }
+
+  .classified {
+    font-family: $font;
+    margin-inline: 1rem;
+    color: #000;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: #d32ee6;
+  }
+
+  .skin-category {
+    font-family: $font;
+    margin-inline: 1rem;
+    color: #000;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: #f89406;
+  }
+
+  .show-details-button {
+    color: #f89406;
+    font-weight: 300;
+  }
+
+  .container-case-img-case-name {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+  }
+
+  .container--category-rarity {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container-details-add-cart {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .add-to-cart-button {
+    font-family: $font;
+    font-weight: 300;
+    border-radius: 15px;
+    background-color: #323741;
+    padding: 0.5rem 0.5rem;
+  }
+
+  .price {
+    font-weight: 300;
+  }
+
+  .container--delete-modify-buttons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 2rem;
+    padding: 1rem;
+  }
+
+  .delete-button-container {
+    cursor: pointer;
+  }
+
+  .case-name {
+    font-weight: 300;
+  }
+
+  .skin-name {
+    position: relative;
+  }
+
+  .skin-name:after {
+    content: '';
+    position: absolute;
+    width: 90%;
+    height: 5px;
+    bottom: -10px;
+    left: -4px;
+    transform: scaleX(0);
+    margin-inline-start: 6%;
+    background: #ffa01b;
+    transform-origin: bottom right;
+    transition: transform 0.5s ease-out;
+  }
+
+  .skin-name:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+}
+
+.custom-swal-font {
+  font-family: $font;
+}
+
+.card:hover {
+  box-shadow: rgba(200, 131, 16, 0.4) -5px 5px,
+    rgba(200, 131, 16, 0.3) -10px 10px, rgba(200, 131, 16, 0.2) -15px 15px;
+  transform: scale(1.01);
+}
