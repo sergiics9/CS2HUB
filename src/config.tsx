@@ -3,6 +3,6 @@
 export const serverUrl =
   location.hostname === 'localhost'
     ? 'http://localhost:2700'
-    : 'https://backend-sergi-casiano.onrender.com';
+    : 'https://backend-cs2hub.onrender.com';
 
 console.log(serverUrl);
