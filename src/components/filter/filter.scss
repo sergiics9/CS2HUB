@@ -1,0 +1,29 @@
+select {
+  font-family: 'Karla';
+  border: 1px solid #fcac19;
+  border-radius: 8px;
+  color: #fcac19;
+  background-color: #323741;
+  padding: 0.8rem;
+  width: 230px;
+  font-size: 1rem;
+}
+
+option {
+  font-size: 1rem;
+  color: #fcac19;
+  background-color: #323741;
+}
+
+@media screen and (min-width: 968px) {
+  select {
+    font-family: 'Karla';
+    border: 1px solid #fcac19;
+    border-radius: 8px;
+    color: #fcac19;
+    background-color: #323741;
+    padding: 0.8rem;
+    width: 280px;
+    font-size: 1rem;
+  }
+}

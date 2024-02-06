@@ -1,0 +1,76 @@
+.log-in-register-container {
+  display: flex;
+  border-radius: 5px;
+  gap: 0.5rem;
+}
+.logout-image,
+.login-image,
+.cart-image,
+.add-container-image {
+  border-radius: 5px;
+  background-color: #3a3f44;
+  padding: 1rem 1rem;
+  margin: 0.5em;
+  border: 1px solid black;
+}
+
+.cart-image:hover {
+  opacity: 0.5;
+}
+
+.logout-image:hover {
+  opacity: 0.5;
+}
+
+.login-image:hover {
+  opacity: 0.5;
+}
+.username {
+  text-decoration: none;
+  color: white;
+}
+
+.username-welcome {
+  font-size: 0.7rem;
+  color: white;
+  width: fit-content;
+}
+
+.admin-button {
+  color: white;
+}
+
+.register {
+  border-radius: 15px;
+  background-color: #3a3f44;
+  color: #fcac19;
+  max-width: 50em;
+  font-size: 1.2rem;
+  padding: 0.6em;
+  margin: 0.5em;
+  text-shadow: 0 0 5px black;
+}
+
+.logout-with-welcome {
+  color: white;
+  text-align: center;
+}
+
+.add-container-image:hover {
+  opacity: 0.5;
+}
+
+.custom-swal-font {
+  font-family: 'Karla';
+}
+
+@media screen and (min-width: 968px) {
+  .logout-image,
+  .login-image,
+  .add-container-image,
+  .cart-image {
+    padding: 1.2rem 1.1rem;
+    margin: 0.5em;
+    text-align: center;
+  }
+}

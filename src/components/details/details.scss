@@ -1,0 +1,155 @@
+$font: 'Karla';
+
+.card-details {
+  background-color: #1c1e22;
+  list-style: none;
+  text-align: center;
+  border: 1px solid #0c0d0e;
+  border-radius: 4px;
+  margin: 1rem;
+  color: white;
+  margin-inline: 5%;
+
+  p {
+    font-weight: bold;
+    font-size: 1.1rem;
+    font-family: $font;
+  }
+
+  .category {
+    font-family: $font;
+    color: lime;
+  }
+
+  .skin-name {
+    font-family: $font;
+  }
+
+  .info-container {
+    font-family: $font;
+  }
+
+  .collection-name {
+    font-family: $font;
+  }
+
+  .description-details {
+    font-size: 0.9rem;
+    color: white;
+    font-family: $font;
+  }
+
+  .case-name {
+    font-family: $font;
+  }
+
+  .details-goback {
+    color: white;
+    font-family: 'Karla';
+    font-size: 1rem;
+    font-weight: bold;
+    position: relative;
+    left: 38%;
+    bottom: 0.7rem;
+    padding: 0.5rem 1rem;
+    border: 1px solid #fcac19;
+    border-radius: 5px;
+    background-color: transparent;
+  }
+
+  .case-name-details {
+    font-weight: bold;
+  }
+}
+.case,
+.collection {
+  color: #fcac19;
+}
+@media screen and (min-width: 0px) {
+  .logo-image-container {
+    content: url('https://res.cloudinary.com/dbhsorjvc/image/upload/h_90/v1702408600/CS2%20STASH/fmbxdwdh6705npfii0ul.webp');
+  }
+}
+
+$font: 'Karla';
+
+.skin-image:hover {
+  transform: scale(1.05);
+}
+
+.covert {
+  font-family: $font;
+  margin-inline: 1rem;
+  color: #000;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  background-color: #eb4b4bed;
+}
+
+.milspec {
+  font-family: $font;
+  margin-inline: 1rem;
+  color: #000;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  background-color: #4b69ff;
+}
+
+.restricted {
+  font-family: $font;
+  margin-inline: 1rem;
+  color: #000;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  background-color: #8847ff;
+}
+
+.extraordinary {
+  font-family: $font;
+  margin-inline: 1rem;
+  color: #000;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  background-color: gold;
+}
+
+.classified {
+  font-family: $font;
+  margin-inline: 1rem;
+  color: #000;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  background-color: #d32ee6;
+}
+
+.skin-category {
+  font-family: $font;
+  margin-inline: 1rem;
+  color: #000;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  background-color: #f89406;
+}
+
+.show-details-button {
+  color: #f89406;
+  font-weight: 300;
+}
+
+.container-case-img-case-name {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.container--category-rarity {
+  display: flex;
+  flex-direction: column;
+}
+
+.case-name {
+  font-weight: 300;
+}

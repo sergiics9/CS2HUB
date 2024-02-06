@@ -1,0 +1,55 @@
+.container-header {
+  font-family: 'Karla';
+  padding: 0.5rem 0.5rem;
+  width: 100%;
+  display: flex;
+  background-color: #3a3f44;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-image-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 1rem 1rem;
+}
+
+.container--img-filter {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+@media screen and (min-width: 968px) {
+  .container-header {
+    margin-inline-start: 15%;
+    width: 70%;
+    margin-top: 0;
+  }
+
+  .container--img-filter {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .filter-container {
+    margin-inline-start: 1.2rem;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .logo-image-container {
+    content: url('https://res.cloudinary.com/dbhsorjvc/image/upload/h_90/v1702408600/CS2%20STASH/fmbxdwdh6705npfii0ul.webp');
+  }
+  .desktop-logo {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .desktop-logo {
+    display: none;
+  }
+}
